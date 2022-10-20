@@ -2,7 +2,10 @@ import React from 'react'
 
 const BoardComponent = () => {
   return (
-    <div className='board'>BoardComponent</div>
+    <div className='board'>
+      <div className='cels white'></div>
+      <div className='cels black'></div>
+      </div>
   )
 }
 
